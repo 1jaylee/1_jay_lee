@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--primaryColor);
+    font-family: "Poppins";
+}
+
+nav .imgs{
+min-height: 100vh;
+width: 80%;
+padding: 40px 40px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+
+.imgs img{
+    margin: 5px;
+    height: 200px;
+    width: 300px;
+    padding: 5px;
+}

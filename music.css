@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #686a6c;
+    font-family: "Poppins";
+}
+.music{
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.audio-container {
+    margin-bottom: 10px;
+  }
+.audio-container audio{
+    width: 400px;
+}
+
+/* Media Query for screens smaller than 600px */
+@media (max-width: 600px) {
+    body {
+        width: 100%;
+    }
+    .audio-container audio{
+        width: 200px;
+      }
+  }
+  
